@@ -10,7 +10,7 @@ import java.io.IOException;
 public class GlobalKeyListener implements NativeKeyListener{
     private final ConfigLogger loger;
     public GlobalKeyListener() throws IOException {
-        this.loger = new ConfigLogger("demo-log.txt");
+        this.loger = new ConfigLogger("Logg_file.txt");
     }
     @Override
     public void nativeKeyPressed(NativeKeyEvent e) {
