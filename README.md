@@ -21,5 +21,7 @@ Run ./target/KeyLogger-jar-with-dependencies.jar file using command:
 ```bash
 java -jar ./target/keylogger-jar-with-dependencies.jar
 ```
-## How to stop recording input
-The **default** key press to end the program is `ESC` 
+## Usage 
+The **default** key press to end the program (stop recording) is `ESC`. 
+
+The **KeyLog.txt** will be created at the directory the *keylogger-jar-with-dependencies.jar* is ran at.
