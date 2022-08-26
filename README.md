@@ -5,6 +5,14 @@ Record keyboard inputs in the background. This application listens to keyboard p
 [KeyLog](https://github.com/sudo-dave/KeyLogger/blob/master/demo-log.txt)
 
 ## How to Build and Run Project
+
+Clone the repository and change directory.
+
+```
+git clone https://github.com/sudo-dave/Sort.io--Sorting-Visualizer
+cd WhereToEat.io
+```
+
 Build project: 
 ```bash
 mvn package
