@@ -9,8 +9,8 @@ Record keyboard inputs in the background. This application listens to keyboard p
 Clone the repository and change directory.
 
 ```
-git clone https://github.com/sudo-dave/Sort.io--Sorting-Visualizer
-cd WhereToEat.io
+git clone https://github.com/sudo-dave/KeyLogger
+cd KeyLogger
 ```
 
 Build project: 
