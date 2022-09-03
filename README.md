@@ -2,7 +2,18 @@
 Record keyboard inputs in the background. This application listens to keyboard presses and records it into a file. It also crates a timestamp for each key press. The app is implemented using **Java** and utlizes the [Jnativehook](https://github.com/kwhat/jnativehook) libary.
 
 ### Example of output file
-[KeyLog](https://github.com/sudo-dave/KeyLogger/blob/master/demo-log.txt)
+```text
+File created: 2022/09/02 21:19:08
+
+Button Pressed: Shift	2022/09/02 21:19:11
+Button Pressed: H	2022/09/02 21:19:12
+Button Pressed: e	2022/09/02 21:19:13
+Button Pressed: l	2022/09/02 21:19:13
+Button Pressed: l	2022/09/02 21:19:13
+Button Pressed: o	2022/09/02 21:19:14
+.....
+```
+[demo-log](https://github.com/sudo-dave/KeyLogger/blob/master/demo-log.txt)
 
 ## How to Build and Run Project
 
