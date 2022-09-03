@@ -14,7 +14,7 @@ public class ConfigLogger {
     public ConfigLogger(String fileName) throws IOException {
         this.fileName = fileName;
 
-        String date = ConfigLogger.getDate();
+        String date = getDate();
         try {
             FileWriter fw
                     = new FileWriter(fileName,true);
@@ -34,13 +34,13 @@ public class ConfigLogger {
         }
 
     }
-    public static String getDate(){
+    public String getDate(){
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         return dtf.format(now);
     }
     public void writeFile(String keyInput){
-        String date = ConfigLogger.getDate();
+        String date = getDate();
         String output =  "Button Pressed: "+keyInput +"\t" + date;
         try {
             FileWriter fw
@@ -57,7 +57,7 @@ public class ConfigLogger {
         }
     }
     public void writeEndFile(){
-        String date = ConfigLogger.getDate();
+        String date = getDate();
         String output =  "\n### Program Stopped @  " + date + " ###";
         try {
             FileWriter fw
