@@ -2,7 +2,7 @@
 Record keyboard inputs in the background. This application listens to keyboard presses and records it into a file. It also crates a timestamp for each key press. The app is implemented using **Java** and utlizes the [Jnativehook](https://github.com/kwhat/jnativehook) libary.
 
 ### Example of output file
-```text
+```txt
 File created: 2022/09/02 21:19:08
 
 Button Pressed: Shift	2022/09/02 21:19:11
