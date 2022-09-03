@@ -24,4 +24,4 @@ java -jar ./target/keylogger-jar-with-dependencies.jar
 ## Usage 
 The **default** key press to end the program (stop recording) is `ESC`. 
 
-The **KeyLog.txt** will be created at the directory the *keylogger-jar-with-dependencies.jar* is ran at.
+The **Logg_file.txt** will be created at the directory the *keylogger-jar-with-dependencies.jar* is ran at.
