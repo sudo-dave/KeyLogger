@@ -1,27 +1,35 @@
-File created: 2022/08/16 18:48:29
+File created: 2022/09/02 21:19:08
 
-Button Pressed: Backspace	2022/08/16 18:48:35
-Button Pressed: Shift	2022/08/16 18:48:36
-Button Pressed: H	2022/08/16 18:48:37
-Button Pressed: e	2022/08/16 18:48:37
-Button Pressed: l	2022/08/16 18:48:38
-Button Pressed: l	2022/08/16 18:48:38
-Button Pressed: Shift	2022/08/16 18:48:39
-Button Pressed: O	2022/08/16 18:48:40
-Button Pressed: Space	2022/08/16 18:48:42
-Button Pressed: 1	2022/08/16 18:48:43
-Button Pressed: 2	2022/08/16 18:48:43
-Button Pressed: Space	2022/08/16 18:48:44
-Button Pressed: Shift	2022/08/16 18:48:45
-Button Pressed: Q	2022/08/16 18:48:46
+Button Pressed: Shift	2022/09/02 21:19:11
+Button Pressed: H	2022/09/02 21:19:12
+Button Pressed: e	2022/09/02 21:19:13
+Button Pressed: l	2022/09/02 21:19:13
+Button Pressed: l	2022/09/02 21:19:13
+Button Pressed: o	2022/09/02 21:19:14
+Button Pressed: Space	2022/09/02 21:19:14
+Button Pressed: Shift	2022/09/02 21:19:14
+Button Pressed: W	2022/09/02 21:19:15
+Button Pressed: Q	2022/09/02 21:19:15
+Button Pressed: Backspace	2022/09/02 21:19:16
+Button Pressed: o	2022/09/02 21:19:17
+Button Pressed: r	2022/09/02 21:19:17
+Button Pressed: l	2022/09/02 21:19:17
+Button Pressed: d	2022/09/02 21:19:17
+Button Pressed: Escape	2022/09/02 21:19:21
 
-Started up again @ 2022/08/16 18:49:39
+### Program Stopped @  2022/09/02 21:19:21 ###
 
-Button Pressed: Backspace	2022/08/16 18:49:42
-Button Pressed: Shift	2022/08/16 18:49:43
-Button Pressed: w	2022/08/16 18:49:43
-Button Pressed: O	2022/08/16 18:49:44
-Button Pressed: R	2022/08/16 18:49:44
-Button Pressed: L	2022/08/16 18:49:44
-Button Pressed: D	2022/08/16 18:49:45
-Button Pressed: Escape	2022/08/16 18:49:46
+Started up again @ 2022/09/02 21:20:45
+
+Button Pressed: Shift	2022/09/02 21:20:49
+Button Pressed: h	2022/09/02 21:20:50
+Button Pressed: I	2022/09/02 21:20:53
+Button Pressed: Space	2022/09/02 21:20:54
+Button Pressed: T	2022/09/02 21:20:54
+Button Pressed: H	2022/09/02 21:20:55
+Button Pressed: E	2022/09/02 21:20:55
+Button Pressed: R	2022/09/02 21:20:55
+Button Pressed: E	2022/09/02 21:20:55
+Button Pressed: Escape	2022/09/02 21:20:58
+
+### Program Stopped @  2022/09/02 21:20:58 ###

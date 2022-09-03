@@ -7,13 +7,13 @@ import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+// TODO: File writer is becoming too much; make a logger singelton
 public class ConfigLogger {
     private String date;
     private final String fileName;
     public ConfigLogger(String fileName) throws IOException {
         this.fileName = fileName;
 
-        // Creates the file if never exsits; if exsits  it ignores
         String date = ConfigLogger.getDate();
         try {
             FileWriter fw
@@ -43,7 +43,6 @@ public class ConfigLogger {
         String date = ConfigLogger.getDate();
         String output =  "Button Pressed: "+keyInput +"\t" + date;
         try {
-            // attach a file to FileWriter
             FileWriter fw
                     = new FileWriter(fileName,true);
 
@@ -57,4 +56,22 @@ public class ConfigLogger {
             e.getStackTrace();
         }
     }
+    public void writeEndFile(){
+        String date = ConfigLogger.getDate();
+        String output =  "\n### Program Stopped @  " + date + " ###";
+        try {
+            FileWriter fw
+                    = new FileWriter(fileName,true);
+
+            fw.write("\n");
+            for(char c: output.toCharArray()){
+                fw.write(c);
+            }
+            fw.close();
+        }
+        catch (Exception e) {
+            e.getStackTrace();
+        }
+    }
+
 }
