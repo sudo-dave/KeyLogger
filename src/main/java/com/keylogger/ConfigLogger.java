@@ -21,7 +21,8 @@ public class ConfigLogger {
             File file = new File(fileName);
 
             String stamp= (file.length() != 0) ? "\n\nStarted up again @ " + date :
-                    "File created: " + date;
+                    "FORMAT: YEAR/MONTH/Day HR:MIN:SEC\n" +
+                            "File created: " + date;
 
             for (char c: stamp.toCharArray()){
                 fw.write(c);

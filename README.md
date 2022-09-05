@@ -3,6 +3,7 @@ Record keyboard inputs in the background. This application listens to keyboard p
 
 ### Example of output file
 ```txt
+FORMAT: YEAR/MONTH/Day HR:MIN:SEC
 File created: 2022/09/02 21:19:08
 
 Button Pressed: Shift	2022/09/02 21:19:11
