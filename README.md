@@ -21,17 +21,17 @@ Button Pressed: o	2022/09/02 21:19:14
 Clone the repository and change directory.
 
 ```
-git clone https://github.com/sudo-dave/KeyLogger
-cd KeyLogger
+$ git clone https://github.com/sudo-dave/KeyLogger
+$ cd KeyLogger
 ```
 
 Build project: 
 ```bash
-mvn package
+$ mvn package
 ```
 Run ./target/KeyLogger-jar-with-dependencies.jar file using command:
 ```bash
-java -jar ./target/keylogger-jar-with-dependencies.jar
+$ java -jar ./target/keylogger-jar-with-dependencies.jar
 ```
 ## Usage 
 The **default** key press to end the program (stop recording) is `ESC`. 
