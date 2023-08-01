@@ -1,0 +1,37 @@
+FORMAT: YEAR/MONTH/Day HR:MIN:SEC
+File created: 2023/07/31 19:01:37
+
+Button Pressed: Enter	2023/07/31 19:01:42
+Button Pressed: Enter	2023/07/31 19:01:42
+Button Pressed: Y	2023/07/31 19:01:42
+Button Pressed: O	2023/07/31 19:01:42
+Button Pressed: O	2023/07/31 19:01:43
+Button Pressed: Enter	2023/07/31 19:01:44
+
+### Program Stopped @  2023/07/31 19:01:49 ###
+
+Started up again @ 2023/07/31 19:03:28
+
+Button Pressed: Enter	2023/07/31 19:03:42
+Button Pressed: H	2023/07/31 19:03:43
+Button Pressed: I	2023/07/31 19:03:43
+Button Pressed: Space	2023/07/31 19:03:44
+Button Pressed: A	2023/07/31 19:03:44
+Button Pressed: G	2023/07/31 19:03:45
+Button Pressed: A	2023/07/31 19:03:45
+Button Pressed: I	2023/07/31 19:03:45
+Button Pressed: N	2023/07/31 19:03:45
+Button Pressed: Space	2023/07/31 19:03:46
+Button Pressed: H	2023/07/31 19:03:46
+Button Pressed: O	2023/07/31 19:03:47
+Button Pressed: W	2023/07/31 19:03:47
+Button Pressed: Space	2023/07/31 19:03:47
+Button Pressed: A	2023/07/31 19:03:47
+Button Pressed: R	2023/07/31 19:03:47
+Button Pressed: E	2023/07/31 19:03:47
+Button Pressed: Space	2023/07/31 19:03:47
+Button Pressed: Y	2023/07/31 19:03:47
+Button Pressed: O	2023/07/31 19:03:48
+Button Pressed: U	2023/07/31 19:03:48
+
+### Program Stopped @  2023/07/31 19:03:52 ###
