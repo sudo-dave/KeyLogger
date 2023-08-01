@@ -1,4 +1,6 @@
 # KeyLogger
+### WARNING: FOR EDUCATIONAL PURPOSES ONLY
+
 Record keyboard inputs in the background. This application listens to keyboard presses and records it into a file. It also creates a timestamp for each key press. The app is implemented using **Java** and utlizes the [Jnativehook](https://github.com/kwhat/jnativehook) libary.
 
 ### Example of output file
