@@ -40,15 +40,13 @@ public class ConfigLogger {
     }
     public void writeFile(String keyInput){
         String date = getDate();
-        String output =  "Button Pressed: "+keyInput +"\t" + date;
+        String output =  "\n" + "Button Pressed: " + keyInput + "\t" + date;
         try {
             FileWriter fw
                     = new FileWriter(fileName,true);
 
-            fw.write("\n");
-            for(char c: output.toCharArray()){
-                fw.write(c);
-            }
+            fw.write(output);
+
             fw.close();
         }
         catch (Exception e) {

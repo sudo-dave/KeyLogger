@@ -20,6 +20,8 @@ spring-shell.log
 *.iws
 *.iml
 *.ipr
+*.txt
+.log
 
 ### NetBeans ###
 /nbproject/private/

